@@ -29,7 +29,6 @@ int main(void)
 
 		/* create fold */
 		if (col >= MAXCOL || c == '\n') {
-			
 			line[pos] = '\0';
 			
 			if ((lbc = lastblank(line, pos)) == NO_BLANK) {
